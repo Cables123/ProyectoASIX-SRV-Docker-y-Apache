@@ -20,7 +20,7 @@ Configuración de un servicio web usando "Apache Web Server", configuración htt
 
 Descargar version beta 0.1:
 ```bash
-wget https://github.com/Cables123/ProyectoASIX-SRV-Docker-y-Apache/releases/download/beta/dockerprojecte-beta-0.1.zip
+wget https://github.com/Cables123/ProyectoASIX-SRV-Docker-y-Apache/releases/download/beta/dockerprojecte-beta-0.1.2.zip
 ```
 Extraer Imagen:
 ```bash
