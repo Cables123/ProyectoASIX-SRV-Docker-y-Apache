@@ -15,6 +15,10 @@ Creación de imágenes personalizadas con Dockerfile y, a su vez, orquestación 
 - Apache y Webs
 Configuración de un servicio web usando "Apache Web Server", configuración httpd, htaccess, módulos, etc.
 
+## Retos y Practicas
+Este proyecto también contaba con unos retos y prácticas que he hecho en un 
+[pdf que podéis ver clicando aquí.](https://github.com/Cables123/ProyectoASIX-SRV-Docker-y-Apache/blob/main/Practicas%20y%20Retos/ASIX_Servicios_Docker%20i%20Apache_VRR.pdf)
+
 ### Uso de inteligencia artificial (IA)
 
 >Este **proyecto usa inteligencia artificial** para el diseño de la página web (index.php's), también para comentar y refinar el código, principalmente el PHP.
