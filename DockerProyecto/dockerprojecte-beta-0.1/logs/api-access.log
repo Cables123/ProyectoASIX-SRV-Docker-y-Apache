@@ -1,7 +1,0 @@
-172.21.0.1 - - [05/Dec/2025:15:31:06 +0000] "GET /index.php HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:31:06 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://api.local:7443/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:31:09 +0000] "GET /i HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:31:10 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:32:05 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:32:05 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://api.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
-172.21.0.1 - - [05/Dec/2025:15:32:09 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
