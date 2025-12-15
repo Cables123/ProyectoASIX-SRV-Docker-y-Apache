@@ -15,6 +15,28 @@ Creación de imágenes personalizadas con Dockerfile y, a su vez, orquestación 
 - Apache y Webs
 Configuración de un servicio web usando "Apache Web Server", configuración httpd, htaccess, módulos, etc.
 
+
+## Prueba tu mismo el proyecto!
+
+Descargar version beta 0.1:
+```bash
+wget https://github.com/Cables123/ProyectoASIX-SRV-Docker-y-Apache/releases/download/beta/dockerprojecte-beta-0.1.zip
+```
+Extraer Imagen:
+```bash
+unzip ./dockerprojecte-beta-0.1.zip
+cd ./dockerprojecte-beta-0.1/
+```
+
+> Puede que necesites una apliacion como unzip.
+> ejemplo: sudo apt-get install unzip 
+
+Construir imagen y arrancar:
+```bash
+docker compose up -d
+```
+
+
 ## Retos y Practicas
 Este proyecto también contaba con unos retos y prácticas que he hecho en un 
 [pdf que podéis ver clicando aquí.](https://github.com/Cables123/ProyectoASIX-SRV-Docker-y-Apache/blob/main/Practicas%20y%20Retos/ASIX_Servicios_Docker%20i%20Apache_VRR.pdf)
