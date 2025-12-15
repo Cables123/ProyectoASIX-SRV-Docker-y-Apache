@@ -1,0 +1,94 @@
+172.21.0.1 - - [05/Dec/2025:15:25:22 +0000] "GET / HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:25:34 +0000] "GET /index.php HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:25:39 +0000] "GET / HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:27:01 +0000] "GET / HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:27:05 +0000] "GET / HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:27:06 +0000] "GET / HTTP/1.1" 500 531 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:09 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:09 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:10 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:11 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:12 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:13 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:14 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:45 +0000] "GET /index.php HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:30:45 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/index.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:32:21 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:32:21 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://10.0.20.231:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:32:26 +0000] "GET /html/index.php HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:32:34 +0000] "GET /html/frontend/index.php HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:32:44 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:33:14 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:33:17 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:37:49 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:37:49 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:37:51 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:37:51 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:38:05 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:38:05 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:41:40 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:41:40 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:41:41 +0000] "GET / HTTP/1.1" 404 196 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+172.21.0.1 - - [05/Dec/2025:15:41:41 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://frontend.local:7443/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined
+vhost_combined

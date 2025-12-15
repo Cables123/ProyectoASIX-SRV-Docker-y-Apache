@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # --- Servidor Web (Apache) ---
+  httpd:
+    build: 
+      context: httpd/.
+      dockerfile: Dockerfile 
+    container_name: httpdproyecte
+    ports:
+      - "8096:80"
+      - "7443:443"
+    volumes:
+      - ./html:/usr/local/apache2/htdocs/html
+      - ./logs:/usr/local/apache2/logs
+    networks:
+      - frontend-network
+      - backend-network
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=${MYSQL_USER}
+      - DB_PASS=${MYSQL_PASSWORD}
+      - DB_NAME=${MYSQL_DATABASE}
+      - REDIS_HOST=redis
+
+  # --- Base de Dades ---
+  mysql:
+    image: mysql:8.0
+    container_name: mysqlproyecte
+    command: --default-authentication-plugin=mysql_native_password --skip-name-resolve
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql     
+    networks:
+      - backend-network       
+
+  # --- Cache ---
+  redis:
+    image: redis:alpine
+    container_name: redisproyecte
+    volumes:
+      - redis_data:/data           
+    networks:
+      - backend-network            
+
+networks:
+  frontend-network:
+    driver: bridge
+  backend-network:
+    driver: bridge
+    internal: true 
+    
+volumes:
+  db_data:
+  redis_data:

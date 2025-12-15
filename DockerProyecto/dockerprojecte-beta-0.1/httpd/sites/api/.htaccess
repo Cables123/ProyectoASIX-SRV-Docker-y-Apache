@@ -1,0 +1,8 @@
+# Evitar llistar fitxers
+Options -Indexes
+
+# Denegar accés a fitxers ocults o de configuració
+<FilesMatch "^\.env|config\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
